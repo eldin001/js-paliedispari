@@ -29,11 +29,22 @@ let scelta = prompt('Scegli se pari o dispari');
 let numero = parseInt(prompt('Scegli un numero da 1 a 5'));
 
 let numeroDelComputer = getRndInteger(1, 5);
-console.log(numeroDelComputer);
+
+let somma = numero + numeroDelComputer;
+
+function pari(numero) {
+    return numero % 2 === 0;
+}
+
+if(scelta === 'pari' && somma % 2 === 0) {
+    
+}
 
 
-/* somma dei due numeri */
- let somma = numero + numeroDelComputer;
+
+
+
+
 
 
 
